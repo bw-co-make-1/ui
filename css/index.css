@@ -180,9 +180,8 @@ ul {
   margin: 0 auto;
 }
 .column {
-  float: left;
+  float: center;
   width: 33.33%;
-  margin-right: 2em;
 }
 .row:after {
   content: "";
@@ -231,10 +230,19 @@ img {
   border-top: 2px solid #F87060;
   display: flex;
   justify-content: space-between;
-  border-bottom: 2px solid #F87060;
 }
 .information .info {
   width: 33.33%;
   margin-bottom: 20px;
   margin-right: 4rem;
+}
+.join {
+  margin-bottom: 1.5rem;
+}
+.join button {
+  color: #5A5766;
+  background: #ED9B40;
+  width: 20%;
+  font-size: 2rem;
+  padding: 1rem;
 }
