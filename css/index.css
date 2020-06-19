@@ -140,7 +140,7 @@ html {
 }
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Shadows Into Light Two', cursive;
 }
 h1,
 h2,
@@ -190,13 +190,15 @@ ul {
   clear: both;
 }
 nav {
-  width: 70%;
+  margin-top: 1rem;
   display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 nav a {
   color: #5A5766;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   margin-right: 1em;
 }
 .footer {
@@ -222,7 +224,7 @@ h2 {
   width: 50%;
 }
 img {
-  width: 70%;
+  width: 100%;
 }
 .information {
   padding-top: 30px;

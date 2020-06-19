@@ -1,5 +1,23 @@
 // Mixins in here
-
+.button(@width, @font-weight){
+       width: @width;
+       margin: 0;
+       padding: 10px;
+       display: inline-flex;
+       border-radius: 10px;
+       color: white;
+       text-decoration: none;
+       margin-bottom: 10px;
+       background: teal;
+       font-weight: @font-weight;
+       font-size: 15px;
+   }
+   
+   .top(@justify-content){
+       display: flex;
+       flex-flow: row wrap;
+       justify-content: @justify-content;
+   }
 
 .mobile{
     @media(max-width: 500px){
