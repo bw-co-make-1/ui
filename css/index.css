@@ -1,7 +1,53 @@
 @media (max-width: 500px) {
   .mobile {
     width: 100%;
+    display: flex;
+    flex: wrap;
     flex-direction: column;
+    margin-left: 0.5rem;
+  }
+  .mobile h1 {
+    width: 30%;
+    font-size: 2rem;
+  }
+  .mobile nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+  }
+  .mobile nav a {
+    font-size: 0.8rem;
+  }
+  .mobile h2 {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .mobile img {
+    width: 80%;
+    margin-right: 0.5rem;
+  }
+  .mobile p {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .mobile ul {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .mobile .join {
+    width: 70%;
+    display: flex;
+    flex: wrap;
+  }
+  .mobile .join button {
+    font-size: 1rem;
   }
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -179,6 +225,58 @@ ul {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    margin-left: 0.5rem;
+  }
+  .container h1 {
+    width: 30%;
+    font-size: 2rem;
+  }
+  .container nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+  }
+  .container nav a {
+    font-size: 0.8rem;
+  }
+  .container h2 {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .container img {
+    width: 80%;
+    margin-right: 0.5rem;
+  }
+  .container p {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .container ul {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .container .join {
+    width: 70%;
+    display: flex;
+    flex: wrap;
+  }
+  .container .join button {
+    font-size: 1rem;
+  }
+}
 .column {
   float: center;
   width: 33.33%;
@@ -194,6 +292,58 @@ nav {
   flex-flow: row wrap;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  nav {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    margin-left: 0.5rem;
+  }
+  nav h1 {
+    width: 30%;
+    font-size: 2rem;
+  }
+  nav nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+  }
+  nav nav a {
+    font-size: 0.8rem;
+  }
+  nav h2 {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  nav img {
+    width: 80%;
+    margin-right: 0.5rem;
+  }
+  nav p {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  nav ul {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  nav .join {
+    width: 70%;
+    display: flex;
+    flex: wrap;
+  }
+  nav .join button {
+    font-size: 1rem;
+  }
+}
 nav a {
   color: #5A5766;
   text-decoration: none;
@@ -207,6 +357,58 @@ nav a {
   justify-content: center;
   border-top: 2px solid #F87060;
 }
+@media (max-width: 500px) {
+  .footer {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    margin-left: 0.5rem;
+  }
+  .footer h1 {
+    width: 30%;
+    font-size: 2rem;
+  }
+  .footer nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+  }
+  .footer nav a {
+    font-size: 0.8rem;
+  }
+  .footer h2 {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .footer img {
+    width: 80%;
+    margin-right: 0.5rem;
+  }
+  .footer p {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .footer ul {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .footer .join {
+    width: 70%;
+    display: flex;
+    flex: wrap;
+  }
+  .footer .join button {
+    font-size: 1rem;
+  }
+}
 header {
   width: 100%;
   margin: 40px 0;
@@ -215,15 +417,223 @@ header {
   justify-content: space-between;
   align-items: flex-start;
 }
+@media (max-width: 500px) {
+  header {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    margin-left: 0.5rem;
+  }
+  header h1 {
+    width: 30%;
+    font-size: 2rem;
+  }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+  }
+  header nav a {
+    font-size: 0.8rem;
+  }
+  header h2 {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  header img {
+    width: 80%;
+    margin-right: 0.5rem;
+  }
+  header p {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  header ul {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  header .join {
+    width: 70%;
+    display: flex;
+    flex: wrap;
+  }
+  header .join button {
+    font-size: 1rem;
+  }
+}
 h1 {
   display: flex;
   width: 30%;
 }
+@media (max-width: 500px) {
+  h1 {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    margin-left: 0.5rem;
+  }
+  h1 h1 {
+    width: 30%;
+    font-size: 2rem;
+  }
+  h1 nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+  }
+  h1 nav a {
+    font-size: 0.8rem;
+  }
+  h1 h2 {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  h1 img {
+    width: 80%;
+    margin-right: 0.5rem;
+  }
+  h1 p {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  h1 ul {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  h1 .join {
+    width: 70%;
+    display: flex;
+    flex: wrap;
+  }
+  h1 .join button {
+    font-size: 1rem;
+  }
+}
 h2 {
   width: 50%;
 }
+@media (max-width: 500px) {
+  h2 {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    margin-left: 0.5rem;
+  }
+  h2 h1 {
+    width: 30%;
+    font-size: 2rem;
+  }
+  h2 nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+  }
+  h2 nav a {
+    font-size: 0.8rem;
+  }
+  h2 h2 {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  h2 img {
+    width: 80%;
+    margin-right: 0.5rem;
+  }
+  h2 p {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  h2 ul {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  h2 .join {
+    width: 70%;
+    display: flex;
+    flex: wrap;
+  }
+  h2 .join button {
+    font-size: 1rem;
+  }
+}
 img {
   width: 100%;
+}
+@media (max-width: 500px) {
+  img {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    margin-left: 0.5rem;
+  }
+  img h1 {
+    width: 30%;
+    font-size: 2rem;
+  }
+  img nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+  }
+  img nav a {
+    font-size: 0.8rem;
+  }
+  img h2 {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  img img {
+    width: 80%;
+    margin-right: 0.5rem;
+  }
+  img p {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  img ul {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  img .join {
+    width: 70%;
+    display: flex;
+    flex: wrap;
+  }
+  img .join button {
+    font-size: 1rem;
+  }
 }
 .information {
   padding-top: 30px;
@@ -231,13 +641,169 @@ img {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .information {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    margin-left: 0.5rem;
+  }
+  .information h1 {
+    width: 30%;
+    font-size: 2rem;
+  }
+  .information nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+  }
+  .information nav a {
+    font-size: 0.8rem;
+  }
+  .information h2 {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .information img {
+    width: 80%;
+    margin-right: 0.5rem;
+  }
+  .information p {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .information ul {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .information .join {
+    width: 70%;
+    display: flex;
+    flex: wrap;
+  }
+  .information .join button {
+    font-size: 1rem;
+  }
+}
 .information .info {
   width: 33.33%;
   margin-bottom: 20px;
   margin-right: 4rem;
 }
+@media (max-width: 500px) {
+  .information .info {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    margin-left: 0.5rem;
+  }
+  .information .info h1 {
+    width: 30%;
+    font-size: 2rem;
+  }
+  .information .info nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+  }
+  .information .info nav a {
+    font-size: 0.8rem;
+  }
+  .information .info h2 {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .information .info img {
+    width: 80%;
+    margin-right: 0.5rem;
+  }
+  .information .info p {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .information .info ul {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .information .info .join {
+    width: 70%;
+    display: flex;
+    flex: wrap;
+  }
+  .information .info .join button {
+    font-size: 1rem;
+  }
+}
 .join {
   margin-bottom: 1.5rem;
+}
+@media (max-width: 500px) {
+  .join {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    margin-left: 0.5rem;
+  }
+  .join h1 {
+    width: 30%;
+    font-size: 2rem;
+  }
+  .join nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+  }
+  .join nav a {
+    font-size: 0.8rem;
+  }
+  .join h2 {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .join img {
+    width: 80%;
+    margin-right: 0.5rem;
+  }
+  .join p {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .join ul {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .join .join {
+    width: 70%;
+    display: flex;
+    flex: wrap;
+  }
+  .join .join button {
+    font-size: 1rem;
+  }
 }
 .join button {
   color: #5A5766;
