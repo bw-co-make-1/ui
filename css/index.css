@@ -202,8 +202,8 @@ h2 {
   font-size: 2rem;
   padding-bottom: 10px;
 }
-h4 {
-  font-size: 2.5rem;
+h3 {
+  font-size: 1.5rem;
   padding-bottom: 10px;
 }
 p {
@@ -349,65 +349,6 @@ nav a {
   text-decoration: none;
   font-size: 1.5em;
   margin-right: 1em;
-}
-.footer {
-  width: 100%;
-  background: #E3DFFF;
-  display: flex;
-  justify-content: center;
-  border-top: 2px solid #F87060;
-}
-@media (max-width: 500px) {
-  .footer {
-    width: 100%;
-    display: flex;
-    flex: wrap;
-    flex-direction: column;
-    margin-left: 0.5rem;
-  }
-  .footer h1 {
-    width: 30%;
-    font-size: 2rem;
-  }
-  .footer nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-bottom: 1rem;
-  }
-  .footer nav a {
-    font-size: 0.8rem;
-  }
-  .footer h2 {
-    width: 50%;
-    display: flex;
-    flex: wrap;
-    font-size: 1rem;
-  }
-  .footer img {
-    width: 80%;
-    margin-right: 0.5rem;
-  }
-  .footer p {
-    width: 50%;
-    display: flex;
-    flex: wrap;
-    font-size: 1rem;
-  }
-  .footer ul {
-    width: 50%;
-    display: flex;
-    flex: wrap;
-    font-size: 1rem;
-  }
-  .footer .join {
-    width: 70%;
-    display: flex;
-    flex: wrap;
-  }
-  .footer .join button {
-    font-size: 1rem;
-  }
 }
 header {
   width: 100%;
@@ -811,4 +752,86 @@ img {
   width: 20%;
   font-size: 2rem;
   padding: 1rem;
+}
+.team {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.team .image-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 2em;
+}
+.team .image-content img {
+  width: 20%;
+  border-radius: 50%;
+}
+.team .text-content {
+  width: 70%;
+}
+.team .text-content p {
+  width: 100%;
+}
+.footer {
+  width: 100%;
+  background: #E3DFFF;
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid #F87060;
+}
+@media (max-width: 500px) {
+  .footer {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    margin-left: 0.5rem;
+  }
+  .footer h1 {
+    width: 30%;
+    font-size: 2rem;
+  }
+  .footer nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+  }
+  .footer nav a {
+    font-size: 0.8rem;
+  }
+  .footer h2 {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .footer img {
+    width: 80%;
+    margin-right: 0.5rem;
+  }
+  .footer p {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .footer ul {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .footer .join {
+    width: 70%;
+    display: flex;
+    flex: wrap;
+  }
+  .footer .join button {
+    font-size: 1rem;
+  }
 }
