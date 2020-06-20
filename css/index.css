@@ -212,7 +212,7 @@ p {
   padding-bottom: 10px;
 }
 img {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
 }
 ul {
@@ -523,7 +523,6 @@ h2 {
 }
 img {
   width: 100%;
-  margin-left: 6rem;
 }
 @media (max-width: 500px) {
   img {
@@ -755,11 +754,17 @@ img {
   padding: 1rem;
 }
 .team {
-  width: 100%;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
 .team .image-content {
-  padding-left: 1%;
-  margin-top: 2em;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 2em;
 }
 .team .image-content img {
   width: 20%;
@@ -769,7 +774,7 @@ img {
   width: 70%;
 }
 .team .text-content p {
-  width: 50%;
+  width: 100%;
 }
 .footer {
   width: 100%;
