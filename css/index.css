@@ -4,6 +4,7 @@
     display: flex;
     flex: wrap;
     flex-direction: column;
+    justify-content: center;
     margin-left: 0.5rem;
   }
   .mobile h1 {
@@ -16,7 +17,8 @@
     justify-content: flex-start;
     margin-bottom: 1rem;
   }
-  .mobile nav a {
+  .mobile nav button {
+    width: 40%;
     font-size: 0.8rem;
   }
   .mobile h2 {
@@ -48,6 +50,14 @@
   }
   .mobile .join button {
     font-size: 1rem;
+  }
+  .mobile .team {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 0.5rem;
   }
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -207,9 +217,9 @@ h3 {
   padding-bottom: 10px;
 }
 p {
-  line-height: 1.5;
-  font-size: 1.6rem;
-  padding-bottom: 10px;
+  line-height: 1.5rem;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
 }
 img {
   max-width: 100%;
@@ -217,8 +227,8 @@ img {
 }
 ul {
   line-height: 1.5;
-  font-size: 1.6rem;
-  padding-bottom: 10px;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
 }
 .container {
   max-width: 800px;
@@ -231,6 +241,7 @@ ul {
     display: flex;
     flex: wrap;
     flex-direction: column;
+    justify-content: center;
     margin-left: 0.5rem;
   }
   .container h1 {
@@ -243,7 +254,8 @@ ul {
     justify-content: flex-start;
     margin-bottom: 1rem;
   }
-  .container nav a {
+  .container nav button {
+    width: 40%;
     font-size: 0.8rem;
   }
   .container h2 {
@@ -276,6 +288,14 @@ ul {
   .container .join button {
     font-size: 1rem;
   }
+  .container .team {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 0.5rem;
+  }
 }
 .column {
   float: center;
@@ -286,69 +306,30 @@ ul {
   display: table;
   clear: both;
 }
-nav {
-  margin-top: 1rem;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+button {
+  width: 150px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border: 0;
+  margin: 10px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  outline: none;
+  background-color: #4dd0e1;
+  background-image: linear-gradient(to right, #5a5766, #b0abcf);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
-@media (max-width: 500px) {
-  nav {
-    width: 100%;
-    display: flex;
-    flex: wrap;
-    flex-direction: column;
-    margin-left: 0.5rem;
-  }
-  nav h1 {
-    width: 30%;
-    font-size: 2rem;
-  }
-  nav nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-bottom: 1rem;
-  }
-  nav nav a {
-    font-size: 0.8rem;
-  }
-  nav h2 {
-    width: 50%;
-    display: flex;
-    flex: wrap;
-    font-size: 1rem;
-  }
-  nav img {
-    width: 80%;
-    margin-right: 0.5rem;
-  }
-  nav p {
-    width: 50%;
-    display: flex;
-    flex: wrap;
-    font-size: 1rem;
-  }
-  nav ul {
-    width: 50%;
-    display: flex;
-    flex: wrap;
-    font-size: 1rem;
-  }
-  nav .join {
-    width: 70%;
-    display: flex;
-    flex: wrap;
-  }
-  nav .join button {
-    font-size: 1rem;
-  }
+button:hover button:hover {
+  background-image: none;
+  background-color: #6b4c88;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
 }
-nav a {
-  color: #5A5766;
-  text-decoration: none;
-  font-size: 1.5em;
-  margin-right: 1em;
+Navbar {
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 header {
   width: 100%;
@@ -364,6 +345,7 @@ header {
     display: flex;
     flex: wrap;
     flex-direction: column;
+    justify-content: center;
     margin-left: 0.5rem;
   }
   header h1 {
@@ -376,7 +358,8 @@ header {
     justify-content: flex-start;
     margin-bottom: 1rem;
   }
-  header nav a {
+  header nav button {
+    width: 40%;
     font-size: 0.8rem;
   }
   header h2 {
@@ -409,6 +392,14 @@ header {
   header .join button {
     font-size: 1rem;
   }
+  header .team {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 0.5rem;
+  }
 }
 h1 {
   display: flex;
@@ -420,6 +411,7 @@ h1 {
     display: flex;
     flex: wrap;
     flex-direction: column;
+    justify-content: center;
     margin-left: 0.5rem;
   }
   h1 h1 {
@@ -432,7 +424,8 @@ h1 {
     justify-content: flex-start;
     margin-bottom: 1rem;
   }
-  h1 nav a {
+  h1 nav button {
+    width: 40%;
     font-size: 0.8rem;
   }
   h1 h2 {
@@ -465,6 +458,14 @@ h1 {
   h1 .join button {
     font-size: 1rem;
   }
+  h1 .team {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 0.5rem;
+  }
 }
 h2 {
   width: 100%;
@@ -476,6 +477,7 @@ h2 {
     display: flex;
     flex: wrap;
     flex-direction: column;
+    justify-content: center;
     margin-left: 0.5rem;
   }
   h2 h1 {
@@ -488,7 +490,8 @@ h2 {
     justify-content: flex-start;
     margin-bottom: 1rem;
   }
-  h2 nav a {
+  h2 nav button {
+    width: 40%;
     font-size: 0.8rem;
   }
   h2 h2 {
@@ -521,6 +524,14 @@ h2 {
   h2 .join button {
     font-size: 1rem;
   }
+  h2 .team {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 0.5rem;
+  }
 }
 img {
   width: 100%;
@@ -532,6 +543,7 @@ img {
     display: flex;
     flex: wrap;
     flex-direction: column;
+    justify-content: center;
     margin-left: 0.5rem;
   }
   img h1 {
@@ -544,7 +556,8 @@ img {
     justify-content: flex-start;
     margin-bottom: 1rem;
   }
-  img nav a {
+  img nav button {
+    width: 40%;
     font-size: 0.8rem;
   }
   img h2 {
@@ -577,6 +590,14 @@ img {
   img .join button {
     font-size: 1rem;
   }
+  img .team {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 0.5rem;
+  }
 }
 .information {
   padding-top: 30px;
@@ -590,6 +611,7 @@ img {
     display: flex;
     flex: wrap;
     flex-direction: column;
+    justify-content: center;
     margin-left: 0.5rem;
   }
   .information h1 {
@@ -602,7 +624,8 @@ img {
     justify-content: flex-start;
     margin-bottom: 1rem;
   }
-  .information nav a {
+  .information nav button {
+    width: 40%;
     font-size: 0.8rem;
   }
   .information h2 {
@@ -635,6 +658,14 @@ img {
   .information .join button {
     font-size: 1rem;
   }
+  .information .team {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 0.5rem;
+  }
 }
 .information .info {
   width: 33.33%;
@@ -647,6 +678,7 @@ img {
     display: flex;
     flex: wrap;
     flex-direction: column;
+    justify-content: center;
     margin-left: 0.5rem;
   }
   .information .info h1 {
@@ -659,7 +691,8 @@ img {
     justify-content: flex-start;
     margin-bottom: 1rem;
   }
-  .information .info nav a {
+  .information .info nav button {
+    width: 40%;
     font-size: 0.8rem;
   }
   .information .info h2 {
@@ -692,9 +725,19 @@ img {
   .information .info .join button {
     font-size: 1rem;
   }
+  .information .info .team {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 0.5rem;
+  }
 }
 .join {
   margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
 }
 @media (max-width: 500px) {
   .join {
@@ -702,6 +745,7 @@ img {
     display: flex;
     flex: wrap;
     flex-direction: column;
+    justify-content: center;
     margin-left: 0.5rem;
   }
   .join h1 {
@@ -714,7 +758,8 @@ img {
     justify-content: flex-start;
     margin-bottom: 1rem;
   }
-  .join nav a {
+  .join nav button {
+    width: 40%;
     font-size: 0.8rem;
   }
   .join h2 {
@@ -747,13 +792,14 @@ img {
   .join .join button {
     font-size: 1rem;
   }
-}
-.join button {
-  color: #5A5766;
-  background: #ED9B40;
-  width: 20%;
-  font-size: 2rem;
-  padding: 1rem;
+  .join .team {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 0.5rem;
+  }
 }
 .team {
   display: flex;
@@ -762,6 +808,68 @@ img {
   padding-top: 30px;
   border-top: 2px solid #F87060;
   justify-content: space-evenly;
+}
+@media (max-width: 500px) {
+  .team {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0.5rem;
+  }
+  .team h1 {
+    width: 30%;
+    font-size: 2rem;
+  }
+  .team nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+  }
+  .team nav button {
+    width: 40%;
+    font-size: 0.8rem;
+  }
+  .team h2 {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .team img {
+    width: 80%;
+    margin-right: 0.5rem;
+  }
+  .team p {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .team ul {
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    font-size: 1rem;
+  }
+  .team .join {
+    width: 70%;
+    display: flex;
+    flex: wrap;
+  }
+  .team .join button {
+    font-size: 1rem;
+  }
+  .team .team {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 0.5rem;
+  }
 }
 .team .brianna {
   width: 33.33%;
@@ -794,7 +902,7 @@ img {
 .team .text-content {
   margin-top: 1rem;
   justify-content: center;
-  width: 40%;
+  width: 50%;
 }
 .team .text-content p {
   width: 90%;
@@ -812,6 +920,7 @@ img {
     display: flex;
     flex: wrap;
     flex-direction: column;
+    justify-content: center;
     margin-left: 0.5rem;
   }
   .footer h1 {
@@ -824,7 +933,8 @@ img {
     justify-content: flex-start;
     margin-bottom: 1rem;
   }
-  .footer nav a {
+  .footer nav button {
+    width: 40%;
     font-size: 0.8rem;
   }
   .footer h2 {
@@ -856,5 +966,13 @@ img {
   }
   .footer .join button {
     font-size: 1rem;
+  }
+  .footer .team {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 0.5rem;
   }
 }
