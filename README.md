@@ -11,7 +11,7 @@ It gives a platform for people to voice their opinions
 It allows the community to decide as a whole which problems need to be addressed first
 Expedites urgency
 What is the mission statement?
-Get sh*t done!
+
 Silence solves nothing...
 💡 Features
 
@@ -21,7 +21,7 @@ Register
 Profile
 Post photos(URLs?)
 Edit / delete issues (admins?)
-Like/upvote 
+Like/upvote
 dashboard (homepage for your area)
 What features may you wish to put in a future release?
 Comments
