@@ -203,7 +203,7 @@ h2 {
   padding-bottom: 10px;
 }
 h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding-bottom: 10px;
 }
 p {
@@ -467,7 +467,8 @@ h1 {
   }
 }
 h2 {
-  width: 50%;
+  width: 100%;
+  border-bottom: 2px solid #F87060;
 }
 @media (max-width: 500px) {
   h2 {
@@ -523,6 +524,7 @@ h2 {
 }
 img {
   width: 100%;
+  margin-top: 2rem;
 }
 @media (max-width: 500px) {
   img {
@@ -754,27 +756,48 @@ img {
   padding: 1rem;
 }
 .team {
-  width: 800px;
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
+  width: 100%;
+  padding-top: 30px;
+  border-top: 2px solid #F87060;
+  justify-content: space-evenly;
+}
+.team .brianna {
+  width: 33.33%;
+}
+.team .sharon {
+  width: 33.33%;
+}
+.team .holly {
+  width: 33.33%;
+}
+.team .troy {
+  width: 33.33%;
+}
+.team .michael {
+  width: 33.33%;
+}
+.team .abdul {
+  width: 33.33%;
+}
+.team .jason {
+  width: 33.33%;
 }
 .team .image-content {
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  padding: 2em;
 }
 .team .image-content img {
-  width: 20%;
+  width: 40%;
   border-radius: 50%;
 }
 .team .text-content {
-  width: 70%;
+  margin-top: 1rem;
+  justify-content: center;
+  width: 40%;
 }
 .team .text-content p {
-  width: 100%;
+  width: 90%;
 }
 .footer {
   width: 100%;
