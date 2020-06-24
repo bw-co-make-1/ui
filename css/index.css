@@ -1,11 +1,14 @@
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   .mobile {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex: wrap;
     flex-direction: column;
     justify-content: center;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
+  }
+  .mobile header {
+    width: 50%;
   }
   .mobile h1 {
     width: 30%;
@@ -58,6 +61,24 @@
     flex-direction: column;
     align-content: center;
     margin-left: 0.5rem;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .tablet {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    align-content: center;
+    padding: 2rem;
+  }
+  .tablet img {
+    width: 100%;
+  }
+  .tablet .information {
+    width: 80%;
+    display: flex;
+    flex: wrap;
+    padding-left: 2rem;
   }
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -231,18 +252,21 @@ ul {
   padding-bottom: 0.5rem;
 }
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
 }
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   .container {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex: wrap;
     flex-direction: column;
     justify-content: center;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
+  }
+  .container header {
+    width: 50%;
   }
   .container h1 {
     width: 30%;
@@ -339,14 +363,17 @@ header {
   justify-content: space-between;
   align-items: flex-start;
 }
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   header {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex: wrap;
     flex-direction: column;
     justify-content: center;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
+  }
+  header header {
+    width: 50%;
   }
   header h1 {
     width: 30%;
@@ -401,18 +428,39 @@ header {
     margin-left: 0.5rem;
   }
 }
+@media only screen and (min-width: 700px) {
+  header {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    align-content: center;
+    padding: 2rem;
+  }
+  header img {
+    width: 100%;
+  }
+  header .information {
+    width: 80%;
+    display: flex;
+    flex: wrap;
+    padding-left: 2rem;
+  }
+}
 h1 {
   display: flex;
   width: 30%;
 }
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   h1 {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex: wrap;
     flex-direction: column;
     justify-content: center;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
+  }
+  h1 header {
+    width: 50%;
   }
   h1 h1 {
     width: 30%;
@@ -471,14 +519,17 @@ h2 {
   width: 100%;
   border-bottom: 2px solid #F87060;
 }
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   h2 {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex: wrap;
     flex-direction: column;
     justify-content: center;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
+  }
+  h2 header {
+    width: 50%;
   }
   h2 h1 {
     width: 30%;
@@ -537,14 +588,17 @@ img {
   width: 100%;
   margin-top: 2rem;
 }
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   img {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex: wrap;
     flex-direction: column;
     justify-content: center;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
+  }
+  img header {
+    width: 50%;
   }
   img h1 {
     width: 30%;
@@ -605,14 +659,17 @@ img {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   .information {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex: wrap;
     flex-direction: column;
     justify-content: center;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
+  }
+  .information header {
+    width: 50%;
   }
   .information h1 {
     width: 30%;
@@ -667,19 +724,40 @@ img {
     margin-left: 0.5rem;
   }
 }
+@media only screen and (min-width: 700px) {
+  .information {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    align-content: center;
+    padding: 2rem;
+  }
+  .information img {
+    width: 100%;
+  }
+  .information .information {
+    width: 80%;
+    display: flex;
+    flex: wrap;
+    padding-left: 2rem;
+  }
+}
 .information .info {
   width: 33.33%;
   margin-bottom: 20px;
   margin-right: 4rem;
 }
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   .information .info {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex: wrap;
     flex-direction: column;
     justify-content: center;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
+  }
+  .information .info header {
+    width: 50%;
   }
   .information .info h1 {
     width: 30%;
@@ -739,14 +817,17 @@ img {
   display: flex;
   justify-content: center;
 }
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   .join {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex: wrap;
     flex-direction: column;
     justify-content: center;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
+  }
+  .join header {
+    width: 50%;
   }
   .join h1 {
     width: 30%;
@@ -809,14 +890,17 @@ img {
   border-top: 2px solid #F87060;
   justify-content: space-evenly;
 }
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   .team {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex: wrap;
     flex-direction: column;
     justify-content: center;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
+  }
+  .team header {
+    width: 50%;
   }
   .team h1 {
     width: 30%;
@@ -914,14 +998,17 @@ img {
   justify-content: center;
   border-top: 2px solid #F87060;
 }
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   .footer {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex: wrap;
     flex-direction: column;
     justify-content: center;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
+  }
+  .footer header {
+    width: 50%;
   }
   .footer h1 {
     width: 30%;
