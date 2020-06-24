@@ -8,10 +8,11 @@
     margin-left: 1rem;
   }
   .mobile header {
-    width: 50%;
+    width: 100%;
+    align-content: center;
   }
   .mobile h1 {
-    width: 30%;
+    width: 50%;
     font-size: 2rem;
   }
   .mobile nav {
@@ -25,23 +26,24 @@
     font-size: 0.8rem;
   }
   .mobile h2 {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
     font-size: 1rem;
   }
   .mobile img {
-    width: 80%;
+    width: 100%;
     margin-right: 0.5rem;
   }
   .mobile p {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
+    align-items: center;
     font-size: 1rem;
   }
   .mobile ul {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
     font-size: 1rem;
@@ -50,6 +52,7 @@
     width: 70%;
     display: flex;
     flex: wrap;
+    justify-content: center;
   }
   .mobile .join button {
     font-size: 1rem;
@@ -237,6 +240,11 @@ h3 {
   font-size: 2rem;
   padding-bottom: 10px;
 }
+h4 {
+  font-size: 3rem;
+  padding: 10px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
 p {
   line-height: 1.5rem;
   font-size: 1.5rem;
@@ -266,10 +274,11 @@ ul {
     margin-left: 1rem;
   }
   .container header {
-    width: 50%;
+    width: 100%;
+    align-content: center;
   }
   .container h1 {
-    width: 30%;
+    width: 50%;
     font-size: 2rem;
   }
   .container nav {
@@ -283,23 +292,24 @@ ul {
     font-size: 0.8rem;
   }
   .container h2 {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
     font-size: 1rem;
   }
   .container img {
-    width: 80%;
+    width: 100%;
     margin-right: 0.5rem;
   }
   .container p {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
+    align-items: center;
     font-size: 1rem;
   }
   .container ul {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
     font-size: 1rem;
@@ -308,6 +318,7 @@ ul {
     width: 70%;
     display: flex;
     flex: wrap;
+    justify-content: center;
   }
   .container .join button {
     font-size: 1rem;
@@ -331,7 +342,7 @@ ul {
   clear: both;
 }
 button {
-  width: 150px;
+  width: 100px;
   font-size: 1.2rem;
   text-transform: uppercase;
   border: 0;
@@ -373,10 +384,11 @@ header {
     margin-left: 1rem;
   }
   header header {
-    width: 50%;
+    width: 100%;
+    align-content: center;
   }
   header h1 {
-    width: 30%;
+    width: 50%;
     font-size: 2rem;
   }
   header nav {
@@ -390,23 +402,24 @@ header {
     font-size: 0.8rem;
   }
   header h2 {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
     font-size: 1rem;
   }
   header img {
-    width: 80%;
+    width: 100%;
     margin-right: 0.5rem;
   }
   header p {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
+    align-items: center;
     font-size: 1rem;
   }
   header ul {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
     font-size: 1rem;
@@ -415,6 +428,7 @@ header {
     width: 70%;
     display: flex;
     flex: wrap;
+    justify-content: center;
   }
   header .join button {
     font-size: 1rem;
@@ -460,10 +474,11 @@ h1 {
     margin-left: 1rem;
   }
   h1 header {
-    width: 50%;
+    width: 100%;
+    align-content: center;
   }
   h1 h1 {
-    width: 30%;
+    width: 50%;
     font-size: 2rem;
   }
   h1 nav {
@@ -477,23 +492,24 @@ h1 {
     font-size: 0.8rem;
   }
   h1 h2 {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
     font-size: 1rem;
   }
   h1 img {
-    width: 80%;
+    width: 100%;
     margin-right: 0.5rem;
   }
   h1 p {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
+    align-items: center;
     font-size: 1rem;
   }
   h1 ul {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
     font-size: 1rem;
@@ -502,6 +518,7 @@ h1 {
     width: 70%;
     display: flex;
     flex: wrap;
+    justify-content: center;
   }
   h1 .join button {
     font-size: 1rem;
@@ -529,10 +546,11 @@ h2 {
     margin-left: 1rem;
   }
   h2 header {
-    width: 50%;
+    width: 100%;
+    align-content: center;
   }
   h2 h1 {
-    width: 30%;
+    width: 50%;
     font-size: 2rem;
   }
   h2 nav {
@@ -546,23 +564,24 @@ h2 {
     font-size: 0.8rem;
   }
   h2 h2 {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
     font-size: 1rem;
   }
   h2 img {
-    width: 80%;
+    width: 100%;
     margin-right: 0.5rem;
   }
   h2 p {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
+    align-items: center;
     font-size: 1rem;
   }
   h2 ul {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
     font-size: 1rem;
@@ -571,6 +590,7 @@ h2 {
     width: 70%;
     display: flex;
     flex: wrap;
+    justify-content: center;
   }
   h2 .join button {
     font-size: 1rem;
@@ -598,10 +618,11 @@ img {
     margin-left: 1rem;
   }
   img header {
-    width: 50%;
+    width: 100%;
+    align-content: center;
   }
   img h1 {
-    width: 30%;
+    width: 50%;
     font-size: 2rem;
   }
   img nav {
@@ -615,23 +636,24 @@ img {
     font-size: 0.8rem;
   }
   img h2 {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
     font-size: 1rem;
   }
   img img {
-    width: 80%;
+    width: 100%;
     margin-right: 0.5rem;
   }
   img p {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
+    align-items: center;
     font-size: 1rem;
   }
   img ul {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
     font-size: 1rem;
@@ -640,6 +662,7 @@ img {
     width: 70%;
     display: flex;
     flex: wrap;
+    justify-content: center;
   }
   img .join button {
     font-size: 1rem;
@@ -669,10 +692,11 @@ img {
     margin-left: 1rem;
   }
   .information header {
-    width: 50%;
+    width: 100%;
+    align-content: center;
   }
   .information h1 {
-    width: 30%;
+    width: 50%;
     font-size: 2rem;
   }
   .information nav {
@@ -686,23 +710,24 @@ img {
     font-size: 0.8rem;
   }
   .information h2 {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
     font-size: 1rem;
   }
   .information img {
-    width: 80%;
+    width: 100%;
     margin-right: 0.5rem;
   }
   .information p {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
+    align-items: center;
     font-size: 1rem;
   }
   .information ul {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
     font-size: 1rem;
@@ -711,6 +736,7 @@ img {
     width: 70%;
     display: flex;
     flex: wrap;
+    justify-content: center;
   }
   .information .join button {
     font-size: 1rem;
@@ -757,10 +783,11 @@ img {
     margin-left: 1rem;
   }
   .information .info header {
-    width: 50%;
+    width: 100%;
+    align-content: center;
   }
   .information .info h1 {
-    width: 30%;
+    width: 50%;
     font-size: 2rem;
   }
   .information .info nav {
@@ -774,23 +801,24 @@ img {
     font-size: 0.8rem;
   }
   .information .info h2 {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
     font-size: 1rem;
   }
   .information .info img {
-    width: 80%;
+    width: 100%;
     margin-right: 0.5rem;
   }
   .information .info p {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
+    align-items: center;
     font-size: 1rem;
   }
   .information .info ul {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
     font-size: 1rem;
@@ -799,6 +827,7 @@ img {
     width: 70%;
     display: flex;
     flex: wrap;
+    justify-content: center;
   }
   .information .info .join button {
     font-size: 1rem;
@@ -827,10 +856,11 @@ img {
     margin-left: 1rem;
   }
   .join header {
-    width: 50%;
+    width: 100%;
+    align-content: center;
   }
   .join h1 {
-    width: 30%;
+    width: 50%;
     font-size: 2rem;
   }
   .join nav {
@@ -844,23 +874,24 @@ img {
     font-size: 0.8rem;
   }
   .join h2 {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
     font-size: 1rem;
   }
   .join img {
-    width: 80%;
+    width: 100%;
     margin-right: 0.5rem;
   }
   .join p {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
+    align-items: center;
     font-size: 1rem;
   }
   .join ul {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
     font-size: 1rem;
@@ -869,6 +900,7 @@ img {
     width: 70%;
     display: flex;
     flex: wrap;
+    justify-content: center;
   }
   .join .join button {
     font-size: 1rem;
@@ -900,10 +932,11 @@ img {
     margin-left: 1rem;
   }
   .team header {
-    width: 50%;
+    width: 100%;
+    align-content: center;
   }
   .team h1 {
-    width: 30%;
+    width: 50%;
     font-size: 2rem;
   }
   .team nav {
@@ -917,23 +950,24 @@ img {
     font-size: 0.8rem;
   }
   .team h2 {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
     font-size: 1rem;
   }
   .team img {
-    width: 80%;
+    width: 100%;
     margin-right: 0.5rem;
   }
   .team p {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
+    align-items: center;
     font-size: 1rem;
   }
   .team ul {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
     font-size: 1rem;
@@ -942,6 +976,7 @@ img {
     width: 70%;
     display: flex;
     flex: wrap;
+    justify-content: center;
   }
   .team .join button {
     font-size: 1rem;
@@ -991,6 +1026,34 @@ img {
 .team .text-content p {
   width: 90%;
 }
+body {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 2rem;
+}
+h4 {
+  display: flex;
+  justify-content: center;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+.row {
+  margin: 5px;
+}
+.card {
+  padding: 20px;
+  text-align: center;
+  background-color: #E3DFFF;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
 .footer {
   width: 100%;
   background: #E3DFFF;
@@ -1008,10 +1071,11 @@ img {
     margin-left: 1rem;
   }
   .footer header {
-    width: 50%;
+    width: 100%;
+    align-content: center;
   }
   .footer h1 {
-    width: 30%;
+    width: 50%;
     font-size: 2rem;
   }
   .footer nav {
@@ -1025,23 +1089,24 @@ img {
     font-size: 0.8rem;
   }
   .footer h2 {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
     font-size: 1rem;
   }
   .footer img {
-    width: 80%;
+    width: 100%;
     margin-right: 0.5rem;
   }
   .footer p {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
+    align-items: center;
     font-size: 1rem;
   }
   .footer ul {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex: wrap;
     font-size: 1rem;
@@ -1050,6 +1115,7 @@ img {
     width: 70%;
     display: flex;
     flex: wrap;
+    justify-content: center;
   }
   .footer .join button {
     font-size: 1rem;

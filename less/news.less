@@ -1,0 +1,36 @@
+body {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 2rem;
+  }
+  h4{
+      display: flex;
+      justify-content: center;
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  .row {margin: 5px;}
+  
+//   .row:after {
+//     content: "";
+//     display: table;
+//     clear: both;
+//   }
+  
+  .card {
+    
+    padding: 20px;
+    text-align: center;
+    background-color:@lightblue;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
