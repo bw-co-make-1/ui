@@ -21,10 +21,22 @@ body {
 //   }
   
   .card {
-    
+    height: 150px;
+    width:auto;
     padding: 20px;
+    line-height: 3rem;
     text-align: center;
+    border: 1.5px solid @gray;
     background-color:@lightblue;
+    a{
+      text-decoration: none;
+      color: @gray;
+      font-size: 1.5rem;
+    }
+    a:hover{
+      color: @peach;
+      font-size: 2rem;
+    }
   }
   
   @media screen and (max-width: 600px) {
