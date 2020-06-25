@@ -1043,9 +1043,22 @@ h4 {
   margin: 5px;
 }
 .card {
+  height: 150px;
+  width: auto;
   padding: 20px;
+  line-height: 3rem;
   text-align: center;
+  border: 1.5px solid #5A5766;
   background-color: #E3DFFF;
+}
+.card a {
+  text-decoration: none;
+  color: #5A5766;
+  font-size: 1.5rem;
+}
+.card a:hover {
+  color: #F87060;
+  font-size: 2rem;
 }
 @media screen and (max-width: 600px) {
   .column {
